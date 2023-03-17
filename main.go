@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/jorgemurta/antilope/cmd"
 
 func main() {
-	fmt.Println("Hello, World! Something cool is coming soon!")
+	cmd.Execute()
 }
