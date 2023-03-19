@@ -3,3 +3,6 @@ build:
 
 run: build
 	./bin/antilope
+
+test:
+	go test -v ./...
